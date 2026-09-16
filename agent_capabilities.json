@@ -1,0 +1,14 @@
+{
+    "os": ["macOS", "Linux"],
+    "languages": ["Crystal"],
+    "features": {
+        "mythic": ["artifacts", "browser scripts", "docker", "dynamic loading", "file chunking", "file browser", "process browser", "process responses", "socks"],
+        "custom": ["bofs", "job control", "symmetric jitter", "realtime mode"]
+    },
+    "payload_output": ["elf", "macho"],
+    "architectures": ["x86_64", "arm_64"],
+    "c2": ["http", "httpx"],
+    "mythic_version": "3.3",
+    "agent_version": "1.0.0",
+    "supported_wrappers": []
+}
